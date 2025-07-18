@@ -1,0 +1,137 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    direction: rtl;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #6b4e31;
+}
+
+h2 {
+    color: #6b4e31;
+    margin-bottom: 15px;
+}
+
+.coffee-list {
+    margin-bottom: 30px;
+}
+
+.coffee-item {
+    background: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.coffee-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.coffee-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.coffee-details h3 {
+    margin: 0 0 8px;
+    color: #4a3728;
+}
+
+.coffee-details .price {
+    margin: 0;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.coffee-details .bulk-price {
+    margin: 5px 0 0;
+    font-size: 1em;
+    color: #555;
+}
+
+.blend-calculator {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.blend-calculator label {
+    font-size: 1.1em;
+    margin-right: 10px;
+}
+
+.blend-calculator input {
+    padding: 8px;
+    width: 100px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.blend-calculator button {
+    padding: 10px 20px;
+    background-color: #6b4e31;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.blend-calculator button:hover {
+    background-color: #4a3728;
+}
+
+#blend-result {
+    margin-top: 20px;
+}
+
+#blend-result p {
+    font-size: 1.1em;
+}
+
+.contact-us {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.contact-us p {
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+.contact-us a {
+    color: #6b4e31;
+    text-decoration: none;
+}
+
+.contact-us a:hover {
+    text-decoration: underline;
+}
+
+.contact-us .fa-instagram {
+    font-size: 1.2em;
+    margin-left: 5px;
+}

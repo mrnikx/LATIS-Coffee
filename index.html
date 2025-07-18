@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LATIS Coffee</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>لاتیس کافه</h1>
+        
+        <!-- بخش قهوه‌های عادی -->
+        <section class="coffee-list">
+            <h2>دانه‌های قهوه</h2>
+            <div class="coffee-item">
+                <img src="images/arabica-ethiopia.jpg" alt="عربیکا اتیوپی" class="coffee-image">
+                <div class="coffee-details">
+                    <h3>عربیکا (ریجن ریو، اتیوپی)</h3>
+                    <p class="price">950t</p>
+                    <p class="bulk-price">بالای ۱۰ کیلوگرم: 900t</p>
+                </div>
+            </div>
+            <div class="coffee-item">
+                <img src="images/robusta-indonesia.jpg" alt="روبوستا اندونزی" class="coffee-image">
+                <div class="coffee-details">
+                    <h3>روبوستا (اندونزی)</h3>
+                    <p class="price">900t</p>
+                    <p class="bulk-price">بالای ۱۰ کیلوگرم: 850t</p>
+                </div>
+            </div>
+            <div class="coffee-item">
+                <img src="images/green-robusta.jpg" alt="روبوستا سبز" class="coffee-image">
+                <div class="coffee-details">
+                    <h3>روبوستا سبز</h3>
+                    <p class="price">750t</p>
+                    <p class="bulk-price">بالای ۱۰ کیلوگرم: 720t</p>
+                </div>
+            </div>
+            <div class="coffee-item">
+                <img src="images/green-arabica.jpg" alt="عربیکا سبز" class="coffee-image">
+                <div class="coffee-details">
+                    <h3>عربیکا سبز</h3>
+                    <p class="price">800t</p>
+                    <p class="bulk-price">بالای ۱۰ کیلوگرم: 770t</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- بخش قهوه ترکیبی -->
+        <section class="blend-calculator">
+            <h2>محاسبه قیمت قهوه ترکیبی</h2>
+            <label for="arabica-percentage">درصد عربیکا (۰ تا ۱۰۰):</label>
+            <input type="number" id="arabica-percentage" min="0" max="100" value="20">
+            <button onclick="calculateBlendPrice()">محاسبه قیمت</button>
+            <div id="blend-result">
+                <p>قیمت عادی: <span id="normal-price">-</span>t</p>
+                <p>بالای ۱۰ کیلوگرم: <span id="bulk-price">-</span>t</p>
+            </div>
+        </section>
+
+        <!-- بخش تماس با ما -->
+        <section class="contact-us">
+            <h2>تماس با ما</h2>
+            <p><span id="contact-number">09127281892</span></p>
+            <p><span id="contact-number">09201407100</span></p>
+            <p>
+                <a href="https://www.instagram.com/latiscoffee/" target="_blank">
+                    <i class="fab fa-instagram"></i> ما را در اینستاگرام دنبال کنید
+                </a>
+            </p>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
